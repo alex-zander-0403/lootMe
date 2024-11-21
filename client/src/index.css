@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Montserrat", serif;
+}
+
+body {
+  background-color: bisque;
+}
+
+/* --------------------------------------------------- */
+
+.cardsbox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* align-content: space-between */
+  /* align-self: center */
+}
+
+.card1 {
+  margin-top: 10px;
+}
+
+.buttonCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly
+}
