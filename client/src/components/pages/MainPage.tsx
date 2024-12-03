@@ -2,7 +2,7 @@ import React from 'react';
 import BoxCard from '../ui/BoxCard';
 import useBoxes from '../../hooks/useBoxes';
 import { Button, Stack } from '@mui/material';
-import AddBox from '../ui/AddBox';
+import AddBox from '../ui/AddBoxModal';
 
 export default function MainPage(): JSX.Element {
   const [open, setOpen] = React.useState(false);
@@ -18,8 +18,8 @@ export default function MainPage(): JSX.Element {
 
   return (
     <>
-      <Button onClick={handleOpen}>Добавить новый лутбокс 1</Button>
-      <Button onClick={() => setOpen((prev) => !prev)}>Добавить новый лутбокс 2</Button>
+      {/* <Button onClick={handleOpen}>Добавить новый лутбокс 2</Button> */}
+      {/* <Button onClick={() => setOpen((prev) => !prev)}>Добавить новый лутбокс 3</Button> */}
       <AddBox open={open} setOpen={setOpen} />
 
       <Stack className="cardsbox" direction="row" spacing={2}>

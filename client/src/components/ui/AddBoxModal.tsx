@@ -26,7 +26,7 @@ export default function AddBox({ open, setOpen }): JSX.Element {
 
   return (
     <div>
-      <Button onClick={handleOpen}>Open modal</Button>
+      <Button onClick={handleOpen}>Добавить новый лутбокс 1</Button>
       <Modal
         open={open}
         onClose={handleClose}

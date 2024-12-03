@@ -1,5 +1,4 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import postService from '../../services/boxService';
 import type { BoxTypeDb, BoxTypeForm } from '../../types/boxTypes';
 import boxService from '../../services/boxService';
 

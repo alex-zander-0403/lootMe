@@ -26,7 +26,7 @@ export default function useBoxes(): UseBoxesTypes {
     void dispatch(addBoxThunk(dataForm));
   };
 
-  // удаление post
+  // удаление box
   const deleteHandler = (id: BoxTypeDb['id']) => {
     void dispatch(deleteBoxThunk(id));
   };
